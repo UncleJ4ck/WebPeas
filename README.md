@@ -6,7 +6,7 @@ WebPeas is the Web verstion of linpeas for web-pentesting, that provides an over
 - Endpoint enumeration with probing live urls
 - CMS Scanning
 - Subdomain enumeration with filtring HTTP and HTTPS
-- Vulnerability assessment using nuclei
+- Vulnerability scanning using nuclei
 - Wayback scanning
 - S3 bucket scanning
 - GraphQL Discovery
