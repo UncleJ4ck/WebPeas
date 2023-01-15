@@ -20,9 +20,10 @@ chmod +x ./auto.sh
 ```
 
 ## To-Do
-- [] adding smart contract checking
-- [] adding a dockerfile
-- [] Fixing bugs
+
+- [ ] adding smart contract checking
+- [x] adding a dockerfile
+- [ ] Fixing bugs
 
 
 ## Usage
