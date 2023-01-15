@@ -18,6 +18,12 @@ cd WebPeas
 pip install -r requirements.txt
 chmod +x ./auto.sh
 ```
+### Docker
+
+```docker
+docker build -t webpeas:latest .
+docker run --name peas webpeas
+```
 
 ## To-Do
 
