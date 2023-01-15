@@ -20,5 +20,6 @@ if __name__ == '__main__':
     parser.add_argument("file", help="File containing a list of URLs")
     args = parser.parse_args()
     with open(args.file, "r") as f:
-        urls = f.readlines()    
+        urls = f.readlines()
+    f.close()
     find_graphql_queries(urls)
