@@ -6,7 +6,7 @@ WebPeas is the Web verstion of linpeas for web-pentesting, that provides an over
 - Endpoint enumeration with probing live urls
 - CMS Scanning
 - Subdomain enumeration with filtring HTTP and HTTPS
-- Vulnerability assessment using nuclei
+- Vulnerability scanning using nuclei
 - Wayback scanning
 - S3 bucket scanning
 - GraphQL Discovery
@@ -27,10 +27,7 @@ chmod +x ./auto.sh
 
 ## Usage
 
-To use WebPeas, run the ```./auto.sh <target>``` script and follow the prompts. Make sure to provide all required information, such as the target URL and any desired flags or options.
-Contributing
-
-If you'd like to contribute to the development of WebPeas, please feel free to fork the repository and submit a pull request with your changes. All contributions are welcome and appreciated.
+To use WebPeas, run the ```./auto.sh <target>``` script and follow the prompts.
 
 ## Contributing
 
