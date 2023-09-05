@@ -126,7 +126,7 @@ if ! [ -x "$(command -v nuclei)" ]; then
 fi
 
 # checking if waybackurls is installed
-if ! [ -x "$(command -v nuclei)" ]; then
+if ! [ -x "$(command -v waybackurls)" ]; then
     go install github.com/tomnomnom/waybackurls@latest > /dev/null 2>&1
 fi
 
